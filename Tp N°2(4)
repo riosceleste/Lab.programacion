@@ -1,0 +1,10 @@
+#include <iostream>  
+using namespace std;
+int main()
+{
+const int age=35;    //Solo va "int" no "const"
+cout << age << "endl";   //las comillas no van en el endl 
+age = 52;
+cout << age << "endl";   //El mismo error que en la linea 6
+return 0;
+}
