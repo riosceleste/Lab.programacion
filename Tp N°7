@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+int time;
+cout<<"ingrese valor de la variable time"<<endl;
+cin>>time;
+  if (time < 18) {
+   cout <<"Good day.";
+  }
+else
+ {
+    cout <<"Good evening.";
+  }
+  return 0;
+
+}
+//cuando time es 5 se imprime good day y cuando es 20 se imprime good evening
