@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    cout << "¿Eres culpable?:  " << endl;
+    int RTA= 0;
+    cout << "1=No 2=Si : ";
+    cin >> RTA;
+    if(RTA == 1)
+    cout << "Irás a casa";
+    if(RTA == 2)
+    cout << "Irás a la carcel";
+
+    return 0;
+}
