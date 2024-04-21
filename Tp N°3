@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float A,B,C;
+    float suma=0;
+    float promedio=0;
+    cout<<"Primera nota: ";
+    cin>>A;
+    cout<<"Segunda nota: ";
+    cin>>B;
+    cout<<"Tercera nota: ";
+    cin>>C;
+    
+    suma = A + B + C;
+    promedio = suma / 3 ;
+    
+    cout << "Su promedio es: " << promedio << endl;
+    
+    return 0;
+}
