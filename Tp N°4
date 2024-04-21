@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float E=0;
+    float A,B,C,D;
+    cout<<"Ingrese A: ";
+    cin>>A;
+    cout<<"Ingrese B: ";
+    cin>>B;
+    cout<<"Ingrese C: ";
+    cin>>C;
+    cout<<"Ingrese D: ";
+    cin>>D;
+    E=((A+B) / 2 * (C*D) /A )+ 1;
+    cout<<"El resultado es: "<<E<<endl;
+
+    return 0;
+}
