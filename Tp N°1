@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A,B, multiplicacion=0;
+    cout<<"Ingrese la altura: ";
+    cin>>A;
+    cout<<"Ingrese la base: ";
+    cin>>B;
+    multiplicacion = A * B;
+    
+    cout<<"La area del rectangulo es: "<< multiplicacion << endl;
+    
+    return 0;
+}
