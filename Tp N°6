@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A;
+    int IVA= 0;
+    cout << "Ingrese A: ";
+    cin >> A;
+    IVA= A * 21 / 100 ; 
+    cout << "El IVA de A es: " << IVA << endl;
+
+    return 0;
+}
