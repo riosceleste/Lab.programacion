@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Celeste ";
+    float N1= 0;    
+    float N2= 0;    
+    float N3= 0;    
+    float prom= 0;  
+    cout << "su primer nota es un: ";
+    cin >> N1;
+    cout << "Su segunda nota es un: ";
+    cin >> N2;
+    cout << "Su tercer nota es un: ";
+    cin >> N3;
+    prom= (N1 + N2 + N3) / 3 ;
+    cout << "su promedio es: " << prom << endl;
+    if(prom < 7) {
+    cout << "desaprobó";
+    } else if(prom==7) {
+    cout << "aprobó";
+    } else if(prom > 7) {
+    cout << "excelente";
+    }    
+    return 0;
+}
