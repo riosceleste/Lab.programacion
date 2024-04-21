@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A , multiplicacion=0;
+    cout<<"Ingrese A: ";
+    cin>>A;
+    multiplicacion= A * A * A;
+    cout<<"La potencia al cubo de "<< A << " es: " << multiplicacion << endl; 
+    
+    return 0;
+}
