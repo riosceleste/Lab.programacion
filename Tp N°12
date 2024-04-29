@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double sueldo;
+    int anio_ingreso;
+    
+    cout << "Ingrese el sueldo: ";
+    cin >> sueldo;
+    cout << "Ingrese el año de ingreso: ";
+    cin >> anio_ingreso;
+
+    if (anio_ingreso < 15) {
+        sueldo *= 0.2;
+    } else if (anio_ingreso > 16) {
+        sueldo *= 0.8;
+    }
+
+    cout << "Hola Celeste su sueldo actualizado es: " << sueldo << endl;
+
+   return 0;
+}
