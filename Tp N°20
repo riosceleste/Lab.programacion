@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int n, par, impar;
+
+  cout << "Ingrese la cantidad de números: ";
+  cin >> n;
+
+  par = 0;
+  impar = 0;
+
+  for (int i = 1; i <= n; i++) {
+    int valor;
+
+    cout << "Ingrese el valor " << i << ": ";
+    cin >> valor;
+
+    if (valor % 2 == 0) {
+      par++; // Incrementamos el contador de pares
+    } else {
+      impar++; // Incrementamos el contador de impares
+    }
+  }
+
+  cout << "Cantidad de números pares: " << par << endl;
+  cout << "Cantidad de números impares: " << impar << endl;
+
+  return 0;
+}
