@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  float valor, suma = 0, promedio;
+
+  for (int i = 1; i <= 10; i++) {
+    cout << "Ingrese el valor " << i << ": ";
+    cin >> valor;
+    suma += valor;
+  }
+
+  promedio = suma / 10;
+
+  cout << "\nLa suma de los valores ingresados es: " << suma << endl;
+  cout << "El promedio de los valores ingresados es: " << promedio << endl;
+
+  return 0;
